@@ -1,0 +1,134 @@
+.App {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 80%;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.App > span {
+  font-size: 2rem;
+  font-weight: bold;
+  letter-spacing: 2px;
+  margin-top: -30px;
+  padding-bottom: 20px;
+}
+
+.form {
+  display: flex;
+  gap:40px
+ 
+}
+
+input {
+  width: 60%;
+  height:30px;
+  outline: none;
+  padding: 5px 10px;
+  font-size: 1.1rem;
+}
+
+.form button {
+  border: none;
+  width: 10%;
+  background-color: rgb(45, 166, 247);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+ 
+}
+
+.list {
+  width:75%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  background-color: white;
+  margin-left: -30px;
+  padding: 30px;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 1.2rem;
+  padding-inline: 10px;
+  border-radius: 10px;
+  background-color: rgb(215, 254, 255);
+  padding-left: 20px;
+}
+
+.todo p {
+  width: 80%;
+}
+
+.todo button {
+  border: none;
+  width: 30px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background-color: rgb(247, 45, 45);
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.recordMain{
+  width:90%;
+  min-height:1000px;
+  background-color:whitesmoke ;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap:50px;
+  padding:30px;
+
+}
+.recordInner{
+  width:200px;
+  height:50px;
+  text-overflow: ellipsis; 
+  overflow: hidden;
+  background-color: rgb(194, 230, 196);
+  text-align: center;
+  white-space: nowrap;
+  padding:8px;
+  
+  
+}
+
+.recordInner p{
+  color:rgb(37, 35, 35);
+  font-size: large;
+  font-weight: 600;
+}
+
+.displaylist{
+  width:150px;
+  height:40px;
+  align-self: self-end;
+  background-color:green;
+  padding:10px;
+  color:white;
+  font-size: large;
+  border-radius: 1.5rem;
+  border: none;
+}
+
+.grid{
+    width:150px;
+  height:40px;
+  align-self: self-end;
+  background-color:rgb(111, 70, 209);
+  padding:10px;
+  color:white;
+  font-size: large;
+  border-radius: 1.5rem;
+  border:none
+}
+
+
